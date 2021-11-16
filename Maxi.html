@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Maximumberechner</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<script>
+			"use strict";
+
+            function fZahlen() {
+							
+                            
+                            let vZahl1 = document.getElementById("Zahl1").value;
+                            let vZahl2 = document.getElementById("Zahl2").value;
+                            let ausgabe = "Maximum " + fMax (vZahl1, vZahl2);
+				
+				            document.getElementById("idAusgabe").innerHTML = ausgabe;
+                            } 
+            
+
+            function fMax(a,b) {
+
+               
+                if (a>b) {
+                    return a
+
+                } else {return b
+                    
+                }
+            }
+            
+			
+		</script>
+	</head>
